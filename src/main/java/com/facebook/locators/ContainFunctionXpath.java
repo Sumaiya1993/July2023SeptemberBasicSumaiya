@@ -1,4 +1,4 @@
-package com.facebookTest;
+package com.facebook.locators;
 
 import org.testng.annotations.Test;
 
