@@ -1,58 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-
-  <suite started-at="2023-09-30T05:32:12 PDT" name="Default suite" finished-at="2023-09-30T05:32:18 PDT" duration-ms="5902">
+  <suite started-at="2023-09-30T18:48:21 PDT" name="Default suite" finished-at="2023-09-30T18:48:29 PDT" duration-ms="7974">
     <groups>
     </groups>
-    <test started-at="2023-09-30T05:32:12 PDT" name="Default test" finished-at="2023-09-30T05:32:18 PDT" duration-ms="5902">
-      <class name="com.facebook.pageObjectModel_LoginTests.LoginTest">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:com.facebook.pageObjectModel_LoginTests.LoginTest@5b7a5baa]" started-at="2023-09-30T05:32:12 PDT" name="openApp" finished-at="2023-09-30T05:32:15 PDT" duration-ms="2982" status="PASS">
+    <test started-at="2023-09-30T18:48:21 PDT" name="Default test" finished-at="2023-09-30T18:48:29 PDT" duration-ms="7974">
+      <class name="pom_PageFactory.LoginTestWithPageFactory">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:pom_PageFactory.LoginTestWithPageFactory@776aec5c]" started-at="2023-09-30T18:48:21 PDT" name="openApp" finished-at="2023-09-30T18:48:24 PDT" duration-ms="3109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="validLoginTest()[pri:1, instance:com.facebook.pageObjectModel_LoginTests.LoginTest@5b7a5baa]" started-at="2023-09-30T05:32:15 PDT" name="validLoginTest" finished-at="2023-09-30T05:32:15 PDT" duration-ms="322" status="PASS">
+        <test-method signature="boundaryLoginTest()[pri:0, instance:pom_PageFactory.LoginTestWithPageFactory@776aec5c]" started-at="2023-09-30T18:48:24 PDT" name="boundaryLoginTest" finished-at="2023-09-30T18:48:25 PDT" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boundaryLoginTest -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:pom_PageFactory.LoginTestWithPageFactory@776aec5c]" started-at="2023-09-30T18:48:25 PDT" name="closeApp" finished-at="2023-09-30T18:48:25 PDT" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:pom_PageFactory.LoginTestWithPageFactory@776aec5c]" started-at="2023-09-30T18:48:25 PDT" name="openApp" finished-at="2023-09-30T18:48:27 PDT" duration-ms="1731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="inValidLoginTest()[pri:0, instance:pom_PageFactory.LoginTestWithPageFactory@776aec5c]" started-at="2023-09-30T18:48:27 PDT" name="inValidLoginTest" finished-at="2023-09-30T18:48:27 PDT" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidLoginTest -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:pom_PageFactory.LoginTestWithPageFactory@776aec5c]" started-at="2023-09-30T18:48:27 PDT" name="closeApp" finished-at="2023-09-30T18:48:27 PDT" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:pom_PageFactory.LoginTestWithPageFactory@776aec5c]" started-at="2023-09-30T18:48:27 PDT" name="openApp" finished-at="2023-09-30T18:48:29 PDT" duration-ms="1738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="validLoginTest()[pri:0, instance:pom_PageFactory.LoginTestWithPageFactory@776aec5c]" started-at="2023-09-30T18:48:29 PDT" name="validLoginTest" finished-at="2023-09-30T18:48:29 PDT" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.facebook.pageObjectModel_LoginTests.LoginTest@5b7a5baa]" started-at="2023-09-30T05:32:15 PDT" name="closeApp" finished-at="2023-09-30T05:32:16 PDT" duration-ms="256" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:pom_PageFactory.LoginTestWithPageFactory@776aec5c]" started-at="2023-09-30T18:48:29 PDT" name="closeApp" finished-at="2023-09-30T18:48:29 PDT" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:com.facebook.pageObjectModel_LoginTests.LoginTest@5b7a5baa]" started-at="2023-09-30T05:32:16 PDT" name="openApp" finished-at="2023-09-30T05:32:18 PDT" duration-ms="1797" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method signature="invalidLoginTest()[pri:2, instance:com.facebook.pageObjectModel_LoginTests.LoginTest@5b7a5baa]" started-at="2023-09-30T05:32:18 PDT" name="invalidLoginTest" finished-at="2023-09-30T05:32:18 PDT" duration-ms="282" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.facebook.pageObjectModel_LoginTests.LoginTest@5b7a5baa]" started-at="2023-09-30T05:32:18 PDT" name="closeApp" finished-at="2023-09-30T05:32:18 PDT" duration-ms="214" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-      </class> <!-- com.facebook.pageObjectModel_LoginTests.LoginTest -->
-
-  <suite started-at="2023-09-30T17:32:21 PDT" name="Default suite" finished-at="2023-09-30T17:32:25 PDT" duration-ms="3818">
-    <groups>
-    </groups>
-    <test started-at="2023-09-30T17:32:21 PDT" name="Default test" finished-at="2023-09-30T17:32:25 PDT" duration-ms="3818">
-      <class name="com.facebook.locators.XpathIndexing">
-        <test-method is-config="true" signature="openFacebook()[pri:0, instance:com.facebook.locators.XpathIndexing@5bf0d49]" started-at="2023-09-30T17:32:21 PDT" name="openFacebook" finished-at="2023-09-30T17:32:24 PDT" duration-ms="3033" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openFacebook -->
-        <test-method signature="indexingMechanism()[pri:0, instance:com.facebook.locators.XpathIndexing@5bf0d49]" started-at="2023-09-30T17:32:24 PDT" name="indexingMechanism" finished-at="2023-09-30T17:32:25 PDT" duration-ms="495" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- indexingMechanism -->
-        <test-method is-config="true" signature="closeFacebook()[pri:0, instance:com.facebook.locators.XpathIndexing@5bf0d49]" started-at="2023-09-30T17:32:25 PDT" name="closeFacebook" finished-at="2023-09-30T17:32:25 PDT" duration-ms="247" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeFacebook -->
-      </class> <!-- com.facebook.locators.XpathIndexing -->
-
+      </class> <!-- pom_PageFactory.LoginTestWithPageFactory -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

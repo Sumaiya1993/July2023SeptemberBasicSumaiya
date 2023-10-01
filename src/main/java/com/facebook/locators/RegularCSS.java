@@ -1,9 +1,6 @@
 package com.facebook.locators;
 
 
-public class RegularCSS {
-
-
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -40,5 +37,4 @@ WebDriver driver;
 		//driver.findElement(By.cssSelector("#^u_0_5")).click();
 		driver.quit();
 	}
-
 }
