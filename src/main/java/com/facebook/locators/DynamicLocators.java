@@ -12,10 +12,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DynamicLocators {
-
-
-	WebDriver driver
-	
+	WebDriver driver;
 	
 	@BeforeMethod
 	public void openFacebook() {
@@ -25,25 +22,7 @@ public class DynamicLocators {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://www.facebook.com/");
 	}
-
 	
-	@Test(invocationCount=3)
-	public void dynamicXpath() {
-	driver.findElement(By.xpath("//button[starts-with(@id,'u_0_5')]")).click ();
-    driver.findElement(By.xpath("//button[starts-with(@id,'u_0_5')]")).click ();
-	
-	
-	
-	}
-
-@AfterMethod
-
-public void closeFacebook() {
-    driver.quit();
-   }
-
-}
-
 	@Test(invocationCount=3)
 	public void dynamicXpath() {
 	driver.findElement(By.xpath("//input[starts-with (@name,'email')]")).sendKeys("you");
@@ -59,4 +38,3 @@ public void closeFacebook() {
 	
 	
 }
-
