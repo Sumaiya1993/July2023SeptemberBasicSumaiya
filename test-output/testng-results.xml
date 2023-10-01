@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-20T08:29:36 PDT" name="Default suite" finished-at="2023-09-20T08:29:36 PDT" duration-ms="75">
+  <suite started-at="2023-09-30T17:32:21 PDT" name="Default suite" finished-at="2023-09-30T17:32:25 PDT" duration-ms="3818">
     <groups>
     </groups>
-    <test started-at="2023-09-20T08:29:36 PDT" name="Default test" finished-at="2023-09-20T08:29:36 PDT" duration-ms="75">
-      <class name="com.facebook.locators.ContainFunctionXpath">
-        <test-method signature="containFunction()[pri:0, instance:com.facebook.locators.ContainFunctionXpath@397fbdb]" started-at="2023-09-20T08:29:36 PDT" name="containFunction" finished-at="2023-09-20T08:29:36 PDT" duration-ms="16" status="PASS">
+    <test started-at="2023-09-30T17:32:21 PDT" name="Default test" finished-at="2023-09-30T17:32:25 PDT" duration-ms="3818">
+      <class name="com.facebook.locators.XpathIndexing">
+        <test-method is-config="true" signature="openFacebook()[pri:0, instance:com.facebook.locators.XpathIndexing@5bf0d49]" started-at="2023-09-30T17:32:21 PDT" name="openFacebook" finished-at="2023-09-30T17:32:24 PDT" duration-ms="3033" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- containFunction -->
-      </class> <!-- com.facebook.locators.ContainFunctionXpath -->
+        </test-method> <!-- openFacebook -->
+        <test-method signature="indexingMechanism()[pri:0, instance:com.facebook.locators.XpathIndexing@5bf0d49]" started-at="2023-09-30T17:32:24 PDT" name="indexingMechanism" finished-at="2023-09-30T17:32:25 PDT" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- indexingMechanism -->
+        <test-method is-config="true" signature="closeFacebook()[pri:0, instance:com.facebook.locators.XpathIndexing@5bf0d49]" started-at="2023-09-30T17:32:25 PDT" name="closeFacebook" finished-at="2023-09-30T17:32:25 PDT" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeFacebook -->
+      </class> <!-- com.facebook.locators.XpathIndexing -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
